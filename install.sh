@@ -1,6 +1,6 @@
 #!/bin/sh
 # USE IT: 
-# curl https://raw.github.com/iceluca/gitlab-recipes/master/install.sh | sudo domain_var=gitlab.example.com sh
+# curl https://raw.github.com/iceluca/GitlabInstaller/master/install.sh | sudo domain_var=gitlab.example.com sh
 #
 
 if [ $domain_var ] ; then
