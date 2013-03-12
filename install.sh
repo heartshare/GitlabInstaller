@@ -86,7 +86,8 @@ cd /home/gitlab
 sudo -u gitlab -H git clone https://github.com/gitlabhq/gitlabhq.git gitlab
 cd /home/gitlab/gitlab
 # Checkout v4
-sudo -u gitlab -H git checkout 4-0-stable
+#sudo -u gitlab -H git checkout 4-0-stable  # default , normal in script installation 
+sudo -u gitlab -H git checkout 4-2-stable
 sudo -u gitlab -H cp config/gitlab.yml.example config/gitlab.yml
 sudo -u gitlab -H cp config/database.yml.mysql config/database.yml
 sudo sed -i 's/"secure password"/"'$userPassword'"/' /home/gitlab/gitlab/config/database.yml
