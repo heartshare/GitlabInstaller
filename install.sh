@@ -1,6 +1,6 @@
 #!/bin/sh
 # USE IT: 
-# curl https://raw.github.com/iceluca/GitlabInstaller/master/install.sh | sudo domain_var=gitlab.example.com sh
+# curl https://raw.github.com/heartshare/GitlabInstaller/master/install.sh | sudo domain_var=gitlab.example.com sh
 #
 apt-get -y install sudo vim curl 
 
