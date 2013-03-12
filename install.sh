@@ -1,6 +1,6 @@
 #!/bin/sh
 # USE IT: 
-# apt-get -y install sudo vim curl && curl https://raw.github.com/heartshare/GitlabInstaller/master/install.sh | sudo domain_var=gitlab.example.com sh
+# apt-get -y install sudo vim curl && curl https://raw.github.com/heartshare/GitlabInstaller/master/install.sh | sudo domain_var=192.168.1.230 sh
 #
 
 if [ $domain_var ] ; then
