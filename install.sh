@@ -2,6 +2,7 @@
 # USE IT: 
 # curl https://raw.github.com/iceluca/GitlabInstaller/master/install.sh | sudo domain_var=gitlab.example.com sh
 #
+apt-get -y install sudo vim curl 
 
 if [ $domain_var ] ; then
   echo "Installing GitLab for domain: $domain_var"
@@ -30,7 +31,7 @@ sudo ln -s /usr/bin/python /usr/bin/python2
 sudo DEBIAN_FRONTEND='noninteractive' apt-get install -y postfix-policyd-spf-python postfix 
 
 
-wget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p327.tar.gz
+http://mirrors.ibiblio.org/ruby/1.9/ruby-1.9.3-p327.tar.gz
 tar xfvz ruby-1.9.3-p327.tar.gz
 cd ruby-1.9.3-p327
 ./configure
